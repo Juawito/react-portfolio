@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactSection = () => {
     return (
-        <article id="Contact" class="Contact-section">
+        <article id="Contact" className="Contact-section">
         <h2>Contact Info</h2>
-        <ul class="Contact-list">
+        <ul className="Contact-list">
             <li>
              Phone Number: <a href="#">1800-223-3333</a>
             </li>
