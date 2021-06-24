@@ -48,16 +48,7 @@ nav {
     font-size: 2rem;
 }
 /*text in the middle of the leaf background*/
-.big-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%);
-    font-family: 'Lobster Two', cursive;
-    font-weight: lighter;
-    font-size: 5rem;
-    color: #e8e8e8ff;
-}
+
 /*div for the sliding animation*/
 .intro {
     background: #e8e8e8ff;
@@ -105,12 +96,12 @@ main {
     font-family: 'Indie Flower', cursive;
     position: relative;
 }
-main article {
+ article {
     min-height: 20vh;
     border: 1px solid black;
     padding-bottom: 5px;
 }
-main h2 {
+.title {
     display: flex;
     font-size: 40px;
     height:100vh;
@@ -123,6 +114,20 @@ main h2 {
     align-items: center;
     justify-content: center;
     color: #e8e8e8ff;
+}
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translatey(-25%);
+    font-family: 'Lobster Two', cursive;
+    font-weight: lighter;
+    font-size: 5rem;
+    color: #e8e8e8ff;
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    
 }
 .about-info {
     width: 65vh;

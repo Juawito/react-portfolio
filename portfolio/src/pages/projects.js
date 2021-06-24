@@ -7,7 +7,7 @@ import wordGameImg from '../images/quiz-home.png'
 const ProjectsSection = () => {
     return (
         <article id='Projects' className='Projects-section'>
-            <h2>Projects</h2>
+            <h2 className='title'>Projects</h2>
             <div className='Project-List'>
                 <div className='main-image-box'>
                     <a href="https://juawito.github.io/golden-hour-g7/" target="_blank" rel='noreferrer'>
